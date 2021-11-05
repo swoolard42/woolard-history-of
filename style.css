@@ -6,6 +6,7 @@ h1 {
 }
 
 .hero {
-    height: 75vh;
+    height: 100vh;
     background: url("images/steven-spielberg.jpg");
+    background-size: cover;
 }
