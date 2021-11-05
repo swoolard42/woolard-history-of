@@ -4,3 +4,8 @@ h1 {
     font-family: Fruktur;
     color: red;
 }
+
+.hero {
+    height: 75vh;
+    background: url("images/steven-spielberg.jpg");
+}
