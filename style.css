@@ -112,16 +112,13 @@ button {
  width: 349px;
  height: 445px;
  display: flex;
- position: absolute;
- padding-left: 850px;
- padding-bottom: 200px;
+ padding-left: 550px;
 }
 
 .Bio {
-    display: flex;
     fill: #EFEFEF;
     width: 495px;
-    height: 479px;
+    height: 400px;
     background-color:#EFEFEF;
     padding: 10px;
     text-align: left;
@@ -136,11 +133,11 @@ button {
 }
 
 .Jaws {
-    display: flex;
     fill: #EFEFEF;
     width: 495px;
-    height: 326px;
+    height: 280px;
     background-color:#EFEFEF;
+    padding: 10px;
 }
 
 .Jaws-bts {
@@ -149,10 +146,17 @@ button {
     height: 190px;
 }
 
-.Close {
+
+.Close-img {
     display: flex;
+    padding-left: 550px;
+}
+
+.Close {
     width: 495px;
-    height: 326px;
+    height: 280px;
+    background-color: #EFEFEF;
+    padding: 10px;
 }
 
 .Close-bts {
@@ -162,3 +166,87 @@ button {
 }
 
 /*1980's*/
+.Indy {
+    width: 495px;
+    height: 330px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.Indy-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    display: flex;
+    padding-left: 550px;
+}
+
+.Indy-bts {
+    display: flex;
+    width: 276px;
+    height: 190px;
+}
+
+.ET {
+    width: 495px;
+    height: 305px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.ET-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    display: flex;
+    padding-left: 550px;
+}
+
+.ET-bts {
+    display: flex;
+    width: 276px;
+    height: 190px;
+}
+
+/*1990's*/ 
+.J-Park {
+    width: 495px;
+    height: 305px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.J-Park-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    display: flex;
+    padding-left: 550px;
+}
+
+.J-Park-bts {
+    display: flex;
+    width: 276px;
+    height: 190px;
+}
+
+.S-List {
+    width: 495px;
+    height: 305px;
+    background-color: #EFEFEF;
+    padding: 10px;  
+}
+
+.S-List-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    display: flex;
+    padding-left: 550px;
+}
+
+.S-List-bts {
+    display: flex;
+    width: 276px;
+    height: 190px;
+}
