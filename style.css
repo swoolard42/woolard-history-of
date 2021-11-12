@@ -96,4 +96,60 @@ p {
 }
 
 
+
 /* Biography */
+.bio-img {
+ width: 349px;
+ height: 445px;
+ display: flex;
+ position: absolute;
+ padding-left: 850px;
+ padding-bottom: 200px;
+}
+
+.Bio {
+    display: flex;
+    fill: #EFEFEF;
+    width: 495px;
+    height: 479px;
+    background-color:#EFEFEF;
+    padding: 10px;
+    text-align: left;
+}
+    
+.Bio header {
+    
+}
+
+.Bio button {
+    text-decoration: none;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 41px;
+
+}
+
+
+/*1970's*/
+.Jaws-img {
+    width: 276px;
+    height: 559px;
+    display: flex;
+}
+
+.Jaws {
+    display: flex;
+    fill: #EFEFEF;
+    width: 495px;
+    height: 326px;
+    background-color:#EFEFEF;
+}
+
+.Jaws-bts {
+    display: flex;
+    width: 276;
+    height: 163;
+}
