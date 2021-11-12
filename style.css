@@ -106,7 +106,6 @@ button {
 }
 
 
-
 /* Biography */
 .bio-img {
  width: 349px;
@@ -168,7 +167,7 @@ button {
 /*1980's*/
 .Indy {
     width: 495px;
-    height: 330px;
+    height: 320px;
     background-color: #EFEFEF;
     padding: 10px;
 }
@@ -177,7 +176,6 @@ button {
     display: flex;
     width: 276px;
     height: 559px;
-    display: flex;
     padding-left: 550px;
 }
 
@@ -198,7 +196,6 @@ button {
     display: flex;
     width: 276px;
     height: 559px;
-    display: flex;
     padding-left: 550px;
 }
 
@@ -220,7 +217,6 @@ button {
     display: flex;
     width: 276px;
     height: 559px;
-    display: flex;
     padding-left: 550px;
 }
 
@@ -232,7 +228,7 @@ button {
 
 .S-List {
     width: 495px;
-    height: 305px;
+    height: 270px;
     background-color: #EFEFEF;
     padding: 10px;  
 }
@@ -241,7 +237,6 @@ button {
     display: flex;
     width: 276px;
     height: 559px;
-    display: flex;
     padding-left: 550px;
 }
 
@@ -249,4 +244,72 @@ button {
     display: flex;
     width: 276px;
     height: 190px;
+}
+
+/*Other Work*/
+.producer {
+    width: 496px;
+    height: 325px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.prod-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    padding-left: 550px;
+}
+
+.bandofbrothers {
+    width: 496px;
+    height: 325px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.bandofbrothers-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    padding-left: 550px;
+}
+
+/*Influence*/
+.new-hollywood {
+    width: 496px;
+    height: 340px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.new-hollywood-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    padding-left: 550px;
+}
+
+.Collaborations {
+    width: 496px;
+    height: 340px;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.Collaborations-img {
+    display: flex;
+    width: 276px;
+    height: 559px;
+    padding-left: 550px;
+}
+
+/*footer*/
+footer {
+    background-color: #E8C045;
+    width: 1519px;
+    height: 302px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
