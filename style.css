@@ -95,6 +95,16 @@ p {
     font-size: 16px;
 }
 
+button {
+    text-decoration: none;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 41px;
+}
+
 
 
 /* Biography */
@@ -116,28 +126,13 @@ p {
     padding: 10px;
     text-align: left;
 }
-    
-.Bio header {
-    
-}
-
-.Bio button {
-    text-decoration: none;
-    color: white;
-    background: black;
-    border: none;
-    border-radius: 8px;
-    width: 120px;
-    height: 41px;
-
-}
-
 
 /*1970's*/
 .Jaws-img {
     width: 276px;
     height: 559px;
     display: flex;
+    padding-left: 550px;
 }
 
 .Jaws {
@@ -150,6 +145,20 @@ p {
 
 .Jaws-bts {
     display: flex;
-    width: 276;
-    height: 163;
+    width: 276px;
+    height: 190px;
 }
+
+.Close {
+    display: flex;
+    width: 495px;
+    height: 326px;
+}
+
+.Close-bts {
+    display: flex;
+    width: 276px;
+    height: 190px;
+}
+
+/*1980's*/
