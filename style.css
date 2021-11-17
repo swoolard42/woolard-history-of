@@ -49,7 +49,6 @@ li a {
 h1 {
     margin: 0px;
     padding: 5px;
-    color:white;
     font-family: Henriette;
     font-size: 55px;
     display: flex;
@@ -109,6 +108,12 @@ button :hover {
     cursor: grabbing;
 }
 
+/*Film Reel*/
+.film-reel-1 {
+    justify-content: center;
+    width: 1140px;
+    height: 138px;
+}
 
 /* Biography */
 .bio-img {
@@ -169,6 +174,7 @@ button :hover {
 
 .Jaws-bts {
     display: flex;
+    flex-direction: row;
     width: 276px;
     height: 190px;
 }
@@ -176,6 +182,8 @@ button :hover {
 .Jaws-bts p {
     background-color: #D5202F;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 
@@ -212,6 +220,8 @@ button :hover {
 .Close-bts p {
     background-color: #66ACB0;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 /*1980's*/
@@ -248,6 +258,8 @@ button :hover {
 .Indy-bts p {
     background-color: #D5202F;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 .ET {
@@ -283,6 +295,8 @@ button :hover {
 .ET-bts p {
     background-color: #66ACB0;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 /*1990's*/ 
@@ -319,6 +333,8 @@ button :hover {
 .J-Park-bts p {
     background-color: #D5202F;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 .S-List {
@@ -354,6 +370,8 @@ button :hover {
 .S-List-bts p {
     background-color: #66ACB0;
     text-align: center;
+    padding: 3px;
+    margin: 0px;
 }
 
 /*Other Work*/
@@ -485,6 +503,8 @@ footer .logo {
     padding-left: 100px;
     padding-bottom: 100px;
     position: absolute;
+    margin-left: 200px;
+    margin-right: 0px;
 }
 
 footer .social {
