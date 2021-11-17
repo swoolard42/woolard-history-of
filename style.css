@@ -112,6 +112,13 @@ button {
  height: 445px;
  display: flex;
  padding-left: 550px;
+ margin: 50px;
+ margin-top: 0;
+}
+
+.bio-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 .Bio {
@@ -119,8 +126,10 @@ button {
     width: 495px;
     height: 400px;
     background-color:#EFEFEF;
-    padding: 10px;
+    padding: 20px;
     text-align: left;
+    margin: 100px;
+    margin-top: 0;
 }
 
 /*1970's*/
@@ -129,6 +138,11 @@ button {
     height: 559px;
     display: flex;
     padding-left: 550px;
+}
+
+.Jaws-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 .Jaws {
@@ -149,6 +163,11 @@ button {
 .Close-img {
     display: flex;
     padding-left: 550px;
+}
+
+.Close-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 .Close {
@@ -179,6 +198,11 @@ button {
     padding-left: 550px;
 }
 
+.Indy-img p {
+    background-color: #E8C045;
+    text-align: center;
+}
+
 .Indy-bts {
     display: flex;
     width: 276px;
@@ -197,6 +221,11 @@ button {
     width: 276px;
     height: 559px;
     padding-left: 550px;
+}
+
+.ET-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 .ET-bts {
@@ -220,6 +249,11 @@ button {
     padding-left: 550px;
 }
 
+.J-Park-img p {
+    background-color: #E8C045;
+    text-align: center;
+}
+
 .J-Park-bts {
     display: flex;
     width: 276px;
@@ -238,6 +272,11 @@ button {
     width: 276px;
     height: 559px;
     padding-left: 550px;
+}
+
+.S-List-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 .S-List-bts {
@@ -261,6 +300,11 @@ button {
     padding-left: 550px;
 }
 
+.prod-img p {
+    background-color: #E8C045;
+    text-align: center;
+}
+
 .bandofbrothers {
     width: 496px;
     height: 325px;
@@ -273,6 +317,11 @@ button {
     width: 276px;
     height: 559px;
     padding-left: 550px;
+}
+
+.bandofbrothers-img p {
+    background-color: #E8C045;
+    text-align: center;
 }
 
 /*Influence*/
@@ -290,6 +339,11 @@ button {
     padding-left: 550px;
 }
 
+.new-hollywood-img p {
+    background-color: #E8C045;
+    text-align: center;
+}
+
 .Collaborations {
     width: 496px;
     height: 340px;
@@ -304,6 +358,11 @@ button {
     padding-left: 550px;
 }
 
+.Collaborations-img p {
+    background-color: #E8C045;
+    text-align: center;
+}
+
 /*footer*/
 footer {
     background-color: #E8C045;
@@ -311,5 +370,30 @@ footer {
     height: 302px;
     margin: 0;
     padding: 0;
+}
+
+footer header {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 25px;
+    margin: 5px;
+}
+
+footer p {
     text-align: center;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+footer .logo {
+    justify-content: right;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+}
+
+footer .social {
+    margin: 5px;
+    padding-left: 1280px;
+    padding-top: 0px;
 }
