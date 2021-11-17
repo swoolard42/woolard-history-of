@@ -105,15 +105,20 @@ button {
     height: 41px;
 }
 
+button :hover {
+    cursor: grabbing;
+}
+
 
 /* Biography */
 .bio-img {
  width: 349px;
  height: 445px;
  display: flex;
- padding-left: 550px;
+ padding-left: 540px;
  margin: 50px;
  margin-top: 0;
+ margin-left: 5px;
 }
 
 .bio-img p {
@@ -128,8 +133,9 @@ button {
     background-color:#EFEFEF;
     padding: 20px;
     text-align: left;
-    margin: 100px;
+    margin: 190px;
     margin-top: 0;
+    margin-right: 5px;
 }
 
 /*1970's*/
@@ -150,13 +156,20 @@ button {
     width: 495px;
     height: 280px;
     background-color:#EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .Jaws-bts {
     display: flex;
     width: 276px;
     height: 190px;
+}
+
+.Jaws-bts p {
+    background-color: #D5202F;
+    text-align: center;
 }
 
 
@@ -174,7 +187,9 @@ button {
     width: 495px;
     height: 280px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .Close-bts {
@@ -183,12 +198,19 @@ button {
     height: 190px;
 }
 
+.Close-bts p {
+    background-color: #66ACB0;
+    text-align: center;
+}
+
 /*1980's*/
 .Indy {
     width: 495px;
     height: 320px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .Indy-img {
@@ -209,11 +231,18 @@ button {
     height: 190px;
 }
 
+.Indy-bts p {
+    background-color: #D5202F;
+    text-align: center;
+}
+
 .ET {
     width: 495px;
     height: 305px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .ET-img {
@@ -234,12 +263,19 @@ button {
     height: 190px;
 }
 
+.ET-bts p {
+    background-color: #66ACB0;
+    text-align: center;
+}
+
 /*1990's*/ 
 .J-Park {
     width: 495px;
     height: 305px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .J-Park-img {
@@ -260,11 +296,18 @@ button {
     height: 190px;
 }
 
+.J-Park-bts p {
+    background-color: #D5202F;
+    text-align: center;
+}
+
 .S-List {
     width: 495px;
     height: 270px;
     background-color: #EFEFEF;
-    padding: 10px;  
+    padding: 20px;  
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .S-List-img {
@@ -285,12 +328,20 @@ button {
     height: 190px;
 }
 
+.S-List-bts p {
+    background-color: #66ACB0;
+    text-align: center;
+}
+
 /*Other Work*/
 .producer {
     width: 496px;
     height: 325px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .prod-img {
@@ -309,7 +360,10 @@ button {
     width: 496px;
     height: 325px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .bandofbrothers-img {
@@ -329,7 +383,10 @@ button {
     width: 496px;
     height: 340px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .new-hollywood-img {
@@ -348,7 +405,10 @@ button {
     width: 496px;
     height: 340px;
     background-color: #EFEFEF;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
 }
 
 .Collaborations-img {
