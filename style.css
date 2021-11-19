@@ -199,7 +199,7 @@ button :hover {
 }
 
 .jaws-text h2 {
-    font-size: 2em;
+    font-size: 2.3em;
     color: black;
     text-align: left;
 }
@@ -232,6 +232,7 @@ button :hover {
     background:#D5202F;
     padding: 5px;
     margin: 0px;
+    text-align: center;
     color: white;
 }
 
