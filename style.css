@@ -61,8 +61,7 @@ h2 {
     font-family: Henriette;
     font-size: 350px;
     margin: 0;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color:white;
 }
 
@@ -176,43 +175,70 @@ button :hover {
 }
 
 /*1970's*/
-.Jaws-img {
-    width: 276px;
-    height: 559px;
+.jaws {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jaws-text h2 {
+    font-size: 2em;
+    color: black;
+    text-align: left;
+}
+
+.jaws-text {
+    padding: 50px;
+    background-color: #EFEFEF;
+}
+
+.jaws-left {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding-left: 550px;
+    justify-content: center;
 }
 
-.Jaws-img p {
-    background-color: #E8C045;
-    text-align: center;
-    padding: 3px;
-    margin: 0px;
+.jaws-left div {
+    margin: 10px;
 }
 
-.Jaws {
-    fill: #EFEFEF;
-    width: 495px;
-    height: 280px;
-    background-color:#EFEFEF;
-    padding: 20px;
-    margin-left: 350px;
-    margin-bottom: 20px;
-}
-
-.Jaws-bts {
+.jaws-bts {
     display: flex;
-    flex-direction: row;
-    width: 276px;
-    height: 190px;
 }
 
-.Jaws-bts p {
-    background-color: #D5202F;
-    text-align: center;
-    padding: 3px;
+.jaws-bts-img {
+    width: 50%;
+}
+
+.jaws-bts-img p {
+    background:#D5202F;
+    padding: 5px;
     margin: 0px;
+    color: white;
+}
+
+.jaws-bts-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.jaws-poster {
+    width: 40%;
+}
+
+.jaws-poster p {
+    background: #E8C045;
+    padding: 5px;
+    margin: 0px;
+}
+
+.jaws-poster img {
+    width: 100%;
+    height: 100%
 }
 
 
