@@ -24,7 +24,7 @@ ul li {
     padding-left: 15px;
     display: inline-block;
     font-family: Henriette;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 li a {
@@ -59,7 +59,7 @@ h1 {
 
 h2 {
     font-family: Henriette;
-    font-size: 275px;
+    font-size: 300px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -110,9 +110,38 @@ button :hover {
 
 /*Film Reel*/
 .film-reel-1 {
+    display: flex;
     justify-content: center;
-    width: 1140px;
-    height: 138px;
+    width: 1510px;
+    height: 185px;
+}
+
+.film-reel-2 {
+    display: flex;
+    justify-content: center;
+    width: 1510px;
+    height: 185px;
+}
+
+.film-reel-3 {
+    display: flex;
+    justify-content: center;
+    width: 1510px;
+    height: 185px;
+}
+
+.film-reel-4 {
+    display: flex;
+    justify-content: center;
+    width: 1510px;
+    height: 185px;
+}
+
+.film-reel-5 {
+    display: flex;
+    justify-content: center;
+    width: 1510px;
+    height: 185px;
 }
 
 /* Biography */
@@ -487,7 +516,7 @@ footer {
 
 footer header {
     text-align: right;
-    padding-right: 40px;
+    padding-right: 70px;
     padding-top: 25px;
     margin: 5px;
 }
