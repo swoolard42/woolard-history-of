@@ -257,7 +257,7 @@ button :hover {
 
 .jaws-poster img {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 
@@ -328,6 +328,77 @@ button :hover {
 
 
 /*1980's*/
+
+/*Indy*/
+.indy {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.indy-text h2 {
+    font-size: 2.3em;
+    color: black;
+    text-align: left;
+}
+
+.indy-text {
+    padding: 50px;
+    background-color: #EFEFEF;
+}
+
+.indy-left  {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indy-left div {
+    margin: 10px;
+}
+
+.indy-bts {
+    display: flex;
+}
+
+.indy-bts-img {
+    width: 50%;
+}
+
+.indy-bts-img p {
+    background: #D5202F;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.indy-bts-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.indy-poster {
+    width: 40%;
+}
+
+.indy-poster p {
+    background: #E8C045;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.indy-poster img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
 .Indy {
     width: 495px;
     height: 320px;
@@ -364,6 +435,7 @@ button :hover {
     padding: 3px;
     margin: 0px;
 }
+*/
 
 .ET {
     width: 495px;
