@@ -470,6 +470,76 @@ button :hover {
 
 
 /*1990's*/ 
+
+.j-park {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.j-park-text h2 {
+    font-size: 2.3em;
+    color: black;
+    text-align: left;
+}
+
+.j-park-text {
+    padding: 50px;
+    background-color: #EFEFEF;
+}
+
+.j-park-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.j-park-left div {
+    margin: 10px;
+}
+
+.j-park-bts {
+    display: flex;
+}
+
+.j-park-bts-img {
+    width: 50%;
+}
+
+.j-park-bts-img p {
+    background: #D5202F;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.j-park-bts-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.j-park-poster {
+    width: 40%;
+}
+
+.j-park-poster p {
+    background: #E8C045;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.j-park-poster img {
+    width: 100%;
+    height: 90%;
+}
+
+/*
 .J-Park {
     width: 495px;
     height: 305px;
@@ -506,7 +576,7 @@ button :hover {
     padding: 3px;
     margin: 0px;
 }
-
+*/
 .S-List {
     width: 495px;
     height: 270px;
