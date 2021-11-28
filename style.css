@@ -539,44 +539,8 @@ button :hover {
     height: 90%;
 }
 
-/*
-.J-Park {
-    width: 495px;
-    height: 305px;
-    background-color: #EFEFEF;
-    padding: 20px;
-    margin-left: 350px;
-    margin-bottom: 20px;
-}
 
-.J-Park-img {
-    display: flex;
-    flex-direction: column;
-    width: 276px;
-    height: 559px;
-    padding-left: 550px;
-}
 
-.J-Park-img p {
-    background-color: #E8C045;
-    text-align: center;
-    padding: 3px;
-    margin: 0px;
-}
-
-.J-Park-bts {
-    display: flex;
-    width: 276px;
-    height: 190px;
-}
-
-.J-Park-bts p {
-    background-color: #D5202F;
-    text-align: center;
-    padding: 3px;
-    margin: 0px;
-}
-*/
 .S-List {
     width: 495px;
     height: 270px;
