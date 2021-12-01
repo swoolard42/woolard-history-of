@@ -216,6 +216,10 @@ button :hover {
     background-color: #EFEFEF;
 }
 
+.jaws-text p {
+    font-size: 1.1em;
+}
+
 .jaws-left {
     width: 60%;
     display: flex;
@@ -273,6 +277,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 25px;
 }
 
 .close-text h2 {
@@ -284,6 +289,10 @@ button :hover {
 .close-text {
     padding: 50px;
     background-color: #EFEFEF;
+}
+
+.close-text p {
+    font-size: 1.1em;
 }
 
 .close-right {
@@ -354,6 +363,10 @@ button :hover {
     background-color: #EFEFEF;
 }
 
+.indy-text p {
+    font-size: 1.1em;
+}
+
 .indy-left  {
     width: 60%;
     display: flex;
@@ -411,6 +424,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 25px;
 }
 
 .et-text h2 {
@@ -422,6 +436,10 @@ button :hover {
 .et-text {
     padding: 50px;
     background-color: #EFEFEF;
+}
+
+.et-text p {
+    font-size: 1.1em;
 }
 
 .et-right {
@@ -497,6 +515,10 @@ button :hover {
     background-color: #EFEFEF;
 }
 
+.j-park-text p {
+    font-size: 1.1em;
+}
+
 .j-park-left {
     width: 60%;
     display: flex;
@@ -554,6 +576,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 25px;
 }
 
 .s-list-text h2 {
@@ -565,6 +588,10 @@ button :hover {
 .s-list-text {
     padding: 50px;
     background-color: #EFEFEF;
+}
+
+.s-list-text p {
+    font-size: 1.1em;
 }
 
 .s-list-right {
@@ -641,7 +668,7 @@ button :hover {
 }
 
 .producer-left {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -690,7 +717,7 @@ button :hover {
 }
 
 .bob-right {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -702,6 +729,7 @@ button :hover {
 
 .bob-img {
     width: 30%;
+    margin-bottom: 15px;
 }
 
 .bob-img p {
@@ -777,7 +805,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .collab-text h2 {
@@ -819,31 +847,7 @@ button :hover {
     height: 100%;
 }
 
-/*
-.Collaborations {
-    width: 496px;
-    height: 340px;
-    background-color: #EFEFEF;
-    padding: 20px;
-    margin: 20px;
-    margin-left: 320px;
-    margin-bottom: 20px;
-}
 
-.Collaborations-img {
-    display: flex;
-    flex-direction: column;
-    width: 276px;
-    height: 559px;
-    padding-left: 550px;
-}
-
-.Collaborations-img p {
-    background-color: #E8C045;
-    text-align: center;
-    padding: 3px;
-    margin: 0px;
-}*/
 
 /*footer*/
 footer {
