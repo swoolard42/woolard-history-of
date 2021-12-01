@@ -613,6 +613,56 @@ button :hover {
 
 
 /*Other Work*/
+
+/*Producer*/
+
+.producer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.producer-text h2 {
+    font-size: 2.3em;
+    color: black;
+    text-align: left;
+}
+
+.producer-text {
+    padding: 50px;
+    background-color: #EFEFEF;
+}
+
+.producer-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.producer-left div {
+    margin: 10px;
+}
+
+.producer-img {
+    width: 30%;
+}
+
+.producer-img p {
+    background: #E8C045;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.producer-img img {
+    width: 100%;
+    height: 90%;
+}
+
+/*
 .producer {
     width: 496px;
     height: 325px;
@@ -636,7 +686,7 @@ button :hover {
     text-align: center;
     padding: 3px;
     margin: 0px;
-}
+}*/
 
 .bandofbrothers {
     width: 496px;
@@ -747,6 +797,6 @@ footer .logo {
 
 footer .social {
     margin: 5px;
-    padding-left: 1270px;
+    padding-left: 1245px;
     padding-top: 0px;
 }
