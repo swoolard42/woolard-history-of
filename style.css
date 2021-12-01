@@ -40,7 +40,7 @@ li a {
 
 .hero {
     height: 100vh;
-    background: url("images/steven-spielberg.jpg");
+    background: url("images/slideshow-start.jpg");
     background-size:cover;
 }  
 
@@ -103,8 +103,10 @@ button {
     height: 41px;
 }
 
-button :hover {
-    cursor: grabbing;
+button:hover {
+    color: black;
+    background: #E8C045; 
+    cursor: grab;
 }
 
 /*Film Reel*/
@@ -277,7 +279,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .close-text h2 {
@@ -424,7 +426,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .et-text h2 {
@@ -576,7 +578,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .s-list-text h2 {
@@ -702,7 +704,7 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .bob-text h2 {
@@ -728,7 +730,7 @@ button :hover {
 }
 
 .bob-img {
-    width: 30%;
+    width: 28%;
     margin-bottom: 15px;
 }
 
@@ -832,7 +834,7 @@ button :hover {
 
 .collab-img {
     width: 35%;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .collab-img p {
