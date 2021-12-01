@@ -38,12 +38,6 @@ li a {
     color: white;
   }
 
-.hero {
-    height: 100vh;
-    background: url("images/slideshow-start.jpg");
-    background-size:cover;
-}  
-
 
 /*Text Settings*/
 h1 {
@@ -106,7 +100,7 @@ button {
 button:hover {
     color: black;
     background: #E8C045; 
-    cursor: grab;
+    cursor: pointer;
 }
 
 /*Film Reel*/
@@ -165,6 +159,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .bio {
@@ -184,6 +179,7 @@ button:hover {
     text-align: left;
     background-color: #EFEFEF;
     background-size: auto;
+    color: black;
 }
 
 .bio-text h2 {
@@ -220,6 +216,7 @@ button:hover {
 
 .jaws-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .jaws-left {
@@ -264,6 +261,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .jaws-poster img {
@@ -295,6 +293,7 @@ button:hover {
 
 .close-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .close-right {
@@ -335,6 +334,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .close-poster img {
@@ -367,6 +367,7 @@ button:hover {
 
 .indy-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .indy-left  {
@@ -411,6 +412,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .indy-poster img {
@@ -442,6 +444,7 @@ button:hover {
 
 .et-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .et-right {
@@ -486,6 +489,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .et-poster img {
@@ -519,6 +523,7 @@ button:hover {
 
 .j-park-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .j-park-left {
@@ -563,6 +568,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .j-park-poster img {
@@ -594,6 +600,7 @@ button:hover {
 
 .s-list-text p {
     font-size: 1.1em;
+    color: black;
 }
 
 .s-list-right {
@@ -638,6 +645,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .s-list-poster img {
@@ -667,6 +675,7 @@ button:hover {
 .producer-text {
     padding: 50px;
     background-color: #EFEFEF;
+    color: black;
 }
 
 .producer-left {
@@ -689,6 +698,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .producer-img img {
@@ -716,6 +726,7 @@ button:hover {
 .bob-text {
     padding: 50px;
     background-color: #EFEFEF;
+    color: black;
 }
 
 .bob-right {
@@ -739,6 +750,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .bob-img img {
@@ -769,6 +781,7 @@ button:hover {
 .new-hollywood-text {
     padding: 50px;
     background-color: #EFEFEF;
+    color: black;
 }
 
 .new-hollywood-left {
@@ -791,6 +804,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .new-hollywood-img img {
@@ -819,6 +833,7 @@ button:hover {
 .collab-text {
     padding: 50px;
     background-color: #EFEFEF;
+    color: black;
 }
 
 .collab-right {
@@ -842,6 +857,7 @@ button:hover {
     padding: 5px;
     margin: 0px;
     text-align: center;
+    color: black;
 }
 
 .collab-img img {
@@ -865,6 +881,7 @@ footer header {
     padding-right: 70px;
     padding-top: 25px;
     margin: 5px;
+    color: black;
 }
 
 footer p {
@@ -887,3 +904,120 @@ footer .social {
     padding-left: 1245px;
     padding-top: 0px;
 }
+
+
+/*Slideshow*/ 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: #333;
+    color: white;
+    line-height: 1.6;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .slide.current {
+    opacity: 1;
+  }
+
+  /*text of the slide*/
+.slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: -600px; /*set this to 0 to view*/
+    width: 500px;
+    background: #E8C045;
+    color: black;
+    padding: 35px;
+    opacity: 0;
+  }
+  
+  .slide .content h1 {
+    margin-bottom: 10px;
+  }
+  
+  .slide.current .content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+  }
+  
+  /*button style*/
+  .buttons button#next {
+    position: absolute;
+    top: 70%;
+    right: 15px;
+  }
+  
+  .buttons button#prev {
+    position: absolute;
+    top: 70%;
+    left: 15px;
+  }
+  
+  .buttons button {
+    border: 2px solid #D5202F;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .buttons button:hover {
+    background: rgba(255,255,255,0.8);
+    color: #333;
+  }
+
+  /* Background Images*/
+  .slide:first-child {
+    background-image: url(images/slideshow-start.jpg);
+    background-size: cover;
+  }
+
+  .slide:nth-child(2) {
+    background-image: url(images/slideshow1.jpg);
+    background-size: cover;
+  }
+
+  .slide:nth-child(3) {
+      background-image: url(images/slideshow2.jpg);
+      background-size: cover;
+  }
+
+  .slide:nth-child(4) {
+      background-image: url(images/slideshow3.jpg);
+      background-size: cover;
+  }
+
+  .slide:nth-child(5) {
+      background-image: url(images/slideshow4.jpg);
+      background-size: cover;
+  }
+
+  .slide:nth-child(6) {
+      background-image: url(images/slideshow5.jpg);
+      background-size: cover;
+  }
