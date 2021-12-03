@@ -55,6 +55,7 @@ h2 {
     font-family: Henriette;
     font-size: 350px;
     margin: 0;
+    padding: 0;
     text-align: center;
     color:white;
 }
@@ -152,6 +153,7 @@ button:hover {
 .bio-img img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 .bio-img p {
@@ -250,6 +252,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .jaws-poster {
@@ -267,6 +270,7 @@ button:hover {
 .jaws-poster img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 
@@ -327,6 +331,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .close-poster p {
@@ -340,6 +345,7 @@ button:hover {
 .close-poster img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 
@@ -401,6 +407,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .indy-poster {
@@ -418,6 +425,7 @@ button:hover {
 .indy-poster img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 /*ET*/
@@ -478,6 +486,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .et-poster {
@@ -495,6 +504,7 @@ button:hover {
 .et-poster img {
     width: 100%;
     height: 90%;
+    border: 10px solid black;
 }
 
 
@@ -557,6 +567,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .j-park-poster {
@@ -574,6 +585,7 @@ button:hover {
 .j-park-poster img {
     width: 100%;
     height: 90%;
+    border: 10px solid black;
 }
 
 /*s-list*/ 
@@ -634,6 +646,7 @@ button:hover {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border: 5px solid black;
 }
 
 .s-list-poster {
@@ -651,6 +664,7 @@ button:hover {
 .s-list-poster img {
     width: 100%;
     height: 90%;
+    border: 10px solid black;
 }
 
 
@@ -704,6 +718,7 @@ button:hover {
 .producer-img img {
     width: 100%;
     height: 90%;
+    border: 10px solid black;
 }
 
 /*Band of Brothers*/
@@ -756,6 +771,7 @@ button:hover {
 .bob-img img {
     width: 100%;
     height: 90%;
+    border: 10px solid black;
 }
 
 
@@ -810,6 +826,7 @@ button:hover {
 .new-hollywood-img img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 
@@ -863,6 +880,7 @@ button:hover {
 .collab-img img {
     width: 100%;
     height: 100%;
+    border: 10px solid black;
 }
 
 
@@ -924,7 +942,7 @@ body {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    width: 100vw;
+    width: 98.9vw;
   }
   
   .slide {
