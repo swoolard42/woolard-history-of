@@ -36,6 +36,7 @@ li a {
   li a:hover {
     background: black;
     color: white;
+    border-radius: 25%;
   }
 
 
@@ -48,7 +49,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: #E8C045;
-    opacity: 75%;
+    opacity: 1;
 }
 
 h2 {
@@ -202,7 +203,8 @@ margin-bottom: -20px;
 .bio-img img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 15px;
 }
 
 .bio-img p {
@@ -211,6 +213,7 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .bio {
@@ -240,7 +243,7 @@ margin-bottom: -20px;
 }
 
 .bio-text p {
-    font-size: 1.15em;
+    font-size: 1.12em;
 }
 
 /*1970's*/
@@ -314,12 +317,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .jaws-poster img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 
@@ -389,12 +394,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .close-poster img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 10px;
 }
 
 
@@ -469,12 +476,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .indy-poster img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 /*ET*/
@@ -535,7 +544,7 @@ margin-bottom: -20px;
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border: 5px solid black;
+    border: 8px solid black;
 }
 
 .et-poster {
@@ -548,12 +557,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .et-poster img {
     width: 100%;
     height: 90%;
     border: 10px solid black;
+    margin-top: 9px;
 }
 
 
@@ -629,12 +640,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .j-park-poster img {
     width: 100%;
     height: 90%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 /*s-list*/ 
@@ -708,12 +721,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .s-list-poster img {
     width: 100%;
     height: 90%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 
@@ -762,12 +777,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .producer-img img {
     width: 100%;
     height: 90%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 /*Band of Brothers*/
@@ -815,12 +832,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .bob-img img {
     width: 100%;
     height: 90%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 
@@ -870,12 +889,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .new-hollywood-img img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 
@@ -925,12 +946,14 @@ margin-bottom: -20px;
     margin: 0px;
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .collab-img img {
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+    border: 8px solid black;
+    margin-top: 9px;
 }
 
 
