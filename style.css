@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+
 body {
     background-color: #2C2C2C;
     margin: 0;
@@ -23,7 +27,7 @@ ul li {
     padding: 25px 0;
     padding-left: 15px;
     display: inline-block;
-    font-family: Henriette;
+    font-family: Ultra;
     font-size: 40px;
 }
 
@@ -44,8 +48,8 @@ li a {
 h1 {
     margin: 0px;
     padding: 5px;
-    font-family: Henriette;
-    font-size: 55px;
+    font-family: Merriweather Sans;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     background-color: #E8C045;
@@ -53,8 +57,8 @@ h1 {
 }
 
 h2 {
-    font-family: Henriette;
-    font-size: 350px;
+    font-family: Ultra;
+    font-size: 200px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -62,8 +66,8 @@ h2 {
 }
 
 h3 {
-    font-family: Henriette;
-    font-size: 185px;
+    font-family: Ultra;
+    font-size: 120px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -71,8 +75,8 @@ h3 {
 }
 
 h4 {
-    font-family: Henriette;
-    font-size: 210px;
+    font-family: Ultra;
+    font-size: 140px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -80,13 +84,13 @@ h4 {
 }
 
 header {
-    font-family: Henriette;
+    font-family: Merriweather Sans;
     font-size: 35px;
 }
 
 p {
-    font-family: Minion Pro;
-    font-size: 16px;
+    font-family: Merriweather, serif;
+    font-size: 14px;
 }
 
 button {
@@ -106,29 +110,13 @@ button:hover {
 }
 
 /*section titles*/
-.bio-title h2 {
-margin-bottom: -80px;
+.title {
+font-size: 190px;
+
 }
 
-.seventies-title h2 {
-margin-bottom: -50px;
-}
 
-.eighties-title h2 {
- margin-bottom: -50px;  
-}
 
-.nineties-title h2 {
- margin-bottom: -50px;    
-}
-
-.other-work-title h2 {
-margin-bottom: -20px; 
-}
-
-.influence-title h2 {
-margin-bottom: -20px;  
-}
 
 
 /*Film Reels*/
@@ -140,7 +128,6 @@ margin-bottom: -20px;
     margin-top: 0px;
     margin-bottom: 0px;
     opacity: 65%;
-    margin-bottom: -140px;
     opacity: 0.8;
 }
 
@@ -151,7 +138,6 @@ margin-bottom: -20px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    margin-bottom: -220px;
     opacity: 0.8;
 }
 
@@ -161,7 +147,6 @@ margin-bottom: -20px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    margin-bottom: -220px;
     opacity: 0.8;
 }
 
@@ -171,7 +156,6 @@ margin-bottom: -20px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    margin-bottom: -220px;
     opacity: 0.8;
 }
 
@@ -181,7 +165,6 @@ margin-bottom: -20px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    margin-bottom: -110px;
     opacity: 0.8;
 }
 
@@ -191,7 +174,6 @@ margin-bottom: -20px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    margin-bottom: -125px;
     opacity: 0.8;
 }
 
@@ -243,7 +225,7 @@ margin-bottom: -20px;
 }
 
 .bio-text p {
-    font-size: 1.12em;
+    font-size: 1.05em;
 }
 
 /*1970's*/
@@ -1075,6 +1057,8 @@ body {
     padding: 10px 15px;
     border-radius: 50%;
     outline: none;
+    height: 70px;
+    width: 70px;
   }
   
   .buttons button:hover {
