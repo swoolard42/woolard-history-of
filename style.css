@@ -48,8 +48,9 @@ li a {
 h1 {
     margin: 0px;
     padding: 5px;
-    font-family: Merriweather Sans;
-    font-size: 45px;
+    font-family: Ultra;
+    font-size: 40px;
+    color: black;
     display: flex;
     justify-content: center;
     background-color: #E8C045;
@@ -84,7 +85,7 @@ h4 {
 }
 
 header {
-    font-family: Merriweather Sans;
+    font-family: Ultra;
     font-size: 35px;
 }
 
@@ -112,12 +113,11 @@ button:hover {
 /*section titles*/
 .title {
 font-size: 190px;
-
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
-
-
-
 
 /*Film Reels*/
 .film-reel {
@@ -127,8 +127,7 @@ font-size: 190px;
     height: 150px;
     margin-top: 0px;
     margin-bottom: 0px;
-    opacity: 65%;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 
@@ -138,7 +137,7 @@ font-size: 190px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .film-reel-2 {
@@ -147,7 +146,7 @@ font-size: 190px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .film-reel-3 {
@@ -156,7 +155,7 @@ font-size: 190px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .film-reel-4 {
@@ -165,7 +164,8 @@ font-size: 190px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    opacity: 0.8;
+    margin-bottom: 50px;
+    opacity: 0.6;
 }
 
 .film-reel-5 {
@@ -174,7 +174,8 @@ font-size: 190px;
     width: 1510px;
     height: 185px;
     margin-top: 70px;
-    opacity: 0.8;
+    margin-bottom: 50px;
+    opacity: 0.6;
 }
 
 /* Biography */
@@ -219,7 +220,7 @@ font-size: 190px;
 }
 
 .bio-text h2 {
-    font-size: 45px;
+    font-size: 42px;
     color: black;
     text-align: left;
 }
@@ -240,7 +241,7 @@ font-size: 190px;
 }
 
 .jaws-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -321,7 +322,7 @@ font-size: 190px;
 }
 
 .close-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -399,7 +400,7 @@ font-size: 190px;
 }
 
 .indy-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -480,7 +481,7 @@ font-size: 190px;
 }
 
 .et-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -563,7 +564,7 @@ font-size: 190px;
 }
 
 .j-park-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -644,7 +645,7 @@ font-size: 190px;
 }
 
 .s-list-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -727,7 +728,7 @@ font-size: 190px;
 }
 
 .producer-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -781,7 +782,7 @@ font-size: 190px;
 }
 
 .bob-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -839,7 +840,7 @@ font-size: 190px;
 }
 
 .new-hollywood-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
@@ -895,7 +896,7 @@ font-size: 190px;
 }
 
 .collab-text h2 {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: black;
     text-align: left;
 }
