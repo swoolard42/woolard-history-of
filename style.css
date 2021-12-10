@@ -51,15 +51,17 @@ h1 {
     font-family: Ultra;
     font-size: 40px;
     color: black;
+    font-weight: lighter;
     display: flex;
     justify-content: center;
     background-color: #E8C045;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 h2 {
     font-family: Ultra;
     font-size: 200px;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -69,6 +71,7 @@ h2 {
 h3 {
     font-family: Ultra;
     font-size: 120px;
+    font-weight: lighter;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -78,6 +81,7 @@ h3 {
 h4 {
     font-family: Ultra;
     font-size: 140px;
+    font-weight: lighter;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -86,7 +90,7 @@ h4 {
 
 header {
     font-family: Ultra;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 p {
@@ -221,6 +225,7 @@ align-items: center;
 
 .bio-text h2 {
     font-size: 42px;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -242,6 +247,7 @@ align-items: center;
 
 .jaws-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -323,6 +329,7 @@ align-items: center;
 
 .close-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -401,6 +408,7 @@ align-items: center;
 
 .indy-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -482,6 +490,7 @@ align-items: center;
 
 .et-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -565,6 +574,7 @@ align-items: center;
 
 .j-park-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -646,6 +656,7 @@ align-items: center;
 
 .s-list-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -729,6 +740,7 @@ align-items: center;
 
 .producer-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -783,6 +795,7 @@ align-items: center;
 
 .bob-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -841,6 +854,7 @@ align-items: center;
 
 .new-hollywood-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
@@ -897,6 +911,7 @@ align-items: center;
 
 .collab-text h2 {
     font-size: 2.2em;
+    font-weight: lighter;
     color: black;
     text-align: left;
 }
